@@ -44,9 +44,9 @@ If needed, run:
 
 Stop your X server or restore access control:
 * Windows: 
-    - exit `XLaunch`
+    - exit `XLaunch`
 * macOS:
-    - exit `XQuartz`
+    - exit `XQuartz`
 * Linux: 
     - run in a terminal: `xhost -`
 
