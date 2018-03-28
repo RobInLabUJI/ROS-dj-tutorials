@@ -15,3 +15,16 @@ Make sure your X server is running without access restrictions, then run:
 ### Open this URL in your browser
 
     http://localhost:8888
+
+### Stop the container
+
+Press `Ctrl-C` in the docker terminal.
+If needed, run:
+
+    docker container stop ros-dj-tutorials
+
+### Build the image locally
+
+    git clone https://github.com/RobInLabUJI/ROS-dj-tutorials.git
+    cd ROS-dj-tutorials
+    docker build -t ros-dj-tutorials .
