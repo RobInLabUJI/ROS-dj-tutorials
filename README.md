@@ -10,11 +10,7 @@ Dockerized ROS tutorials with jupyter
 
 ## Getting started
 
-### Pull the image
-
-    docker pull robinlab/ros-dj-tutorials
-    
-### Run the image
+### Configure your X server
 Make sure your X server is running without access restrictions:
 * Windows: 
     - run `XLaunch`
@@ -24,7 +20,12 @@ Make sure your X server is running without access restrictions:
     - in the preferences, go to the “Security” tab and tick “Allow connections from network clients”
 * Linux: run in a terminal `xhost +`
 
-Run:
+### Pull the image
+
+    docker pull robinlab/ros-dj-tutorials
+    
+## Run the image
+
     docker run --name ros-dj-tutorials --rm -p 8888:8888 -e DISPLAY=<host_IP>:0.0 ros-dj-tutorials
     
 ### Open this URL in your browser
