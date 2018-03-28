@@ -16,6 +16,7 @@ Make sure your X server is running without access restrictions:
 * macOS:
     - run `XQuartz`
     - in the preferences, go to the `Security` tab and tick `Allow connections from network clients`
+    - in `xterm` of `XQuartz` run: `xhost +`
 * Linux:
     - run in a terminal: `xhost +`
 
