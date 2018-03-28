@@ -6,7 +6,6 @@ RUN apt-get update && apt-get install -y \
     ros-kinetic-common-tutorials \
     && rm -rf /var/lib/apt/lists/
 
-COPY . ${HOME}
-
 USER ${NB_USER}
+COPY . ${HOME}
 WORKDIR ${HOME}
