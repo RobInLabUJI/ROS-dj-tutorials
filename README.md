@@ -8,17 +8,17 @@ Dockerized ROS tutorials with jupyter
     - macOS: [XQuartz](https://www.xquartz.org/)
     - Linux: do nothing :)
 
-## Getting started
-
 ### Configure your X server
 Make sure your X server is running without access restrictions:
 * Windows: 
     - run `XLaunch`
-    - tick 'No Access Control' on the 'Additional Parameters' screen
+    - tick `No Access Control` on the `Additional Parameters` screen
 * macOS:
     - run `XQuartz`
-    - in the preferences, go to the “Security” tab and tick “Allow connections from network clients”
+    - in the preferences, go to the `Security` tab and tick `Allow connections from network clients`
 * Linux: run in a terminal `xhost +`
+
+## Getting started
 
 ### Pull the image
 
@@ -41,7 +41,7 @@ If needed, run:
 
     docker container stop ros-dj-tutorials
 
-Stop your X server or restore access contol:
+Stop your X server or restore access control:
 * Windows: 
     - exit `XLaunch`
 * macOS:
