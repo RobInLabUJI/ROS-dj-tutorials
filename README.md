@@ -25,7 +25,7 @@ Make sure your X server is running without access restrictions:
 
     docker pull robinlab/ros-dj-tutorials
     
-## Run the image
+### Run the image
 
     docker run --name ros-dj-tutorials --rm -p 8888:8888 -e DISPLAY=<host_IP>:0.0 ros-dj-tutorials
     
