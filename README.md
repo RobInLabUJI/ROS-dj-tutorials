@@ -11,12 +11,13 @@ Dockerized ROS tutorials with jupyter
 ### Configure your X server
 Make sure your X server is running without access restrictions:
 * Windows: 
-    - run `XLaunch`
-    - tick `No Access Control` on the `Additional Parameters` screen
+    - run `XLaunch`
+    - tick `No Access Control` on the `Additional Parameters` screen
 * macOS:
-    - run `XQuartz`
-    - in the preferences, go to the `Security` tab and tick `Allow connections from network clients`
-* Linux: run in a terminal `xhost +`
+    - run `XQuartz`
+    - in the preferences, go to the `Security` tab and tick `Allow connections from network clients`
+* Linux:
+    - run in a terminal: `xhost +`
 
 ## Getting started
 
@@ -46,7 +47,8 @@ Stop your X server or restore access control:
     - exit `XLaunch`
 * macOS:
     - exit `XQuartz`
-* Linux: run in a terminal `xhost -`
+* Linux: 
+    - run in a terminal: `xhost -`
 
 ### Build the image locally
 
